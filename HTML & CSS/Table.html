@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Table Page</title>
+<style>
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+</style>
+<!-- In the style sheet, td,th means multiple element selectors (the comma) are chosen to style two sections the same -->
+<!-- Border collapse in the style joins all the border lines together - try removing it and see the difference -->
+    </head>
+    <body>
+        <h1>Tables</h1>
+        <table>
+            <thead><!-- Table Head -->
+                <tr>
+                <th>Country</th><!-- Table Headings -->
+                <th>Region</th>
+                <th>Currency</th>
+                </tr>
+            </thead>
+            <tbody><!-- Table Body -->
+                <tr><!-- Table Row -->
+                <td>Australia</td><!-- Table Data -->
+                <td>Oceania</td>
+                <td>Dollars</td>
+                </tr>
+                <tr>
+                    <td>France</td>
+                    <td>Europe</td>
+                    <td>Euro</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        
+    </body>
+</html>

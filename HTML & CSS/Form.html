@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        This is a form
+        <form>
+<input type="text" placeholder="Please enter your name" name="full_name">
+<input type="password" placeholder="Password" name="password">
+
+<!-- Radio Buttons used to select an item in a div -->
+<div>
+Favourite Colour?
+
+<input name="color" type="radio" value="red">Red
+<input name="color" type="radio" value="blue">Blue
+<input name="color" type="radio" value="green">Green
+</div>
+
+
+<!-- The following is a list of options that come in a drop down type menu - You need to create a data list -->
+
+<input name="country" list="countries" placeholder="Country">
+<datalist id="countries"> <!-- This is the data list with the same id as the input list above -->
+    <option value="Australia">
+    <option value="Italy">
+    <option value="France">
+</datalist>
+
+<input type="submit">
+        </form>
+
+    </body>
+</html>
