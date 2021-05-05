@@ -15,4 +15,3 @@ teams["Collingwood"] = "AFL"
 
 print(teams["Collingwood"])
 
-print(teams)
